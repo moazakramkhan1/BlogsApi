@@ -38,4 +38,7 @@ venv\Scripts\activate  # Windows
 pip install -r requirements.txt
 
 **Run the application:**
-uvicorn main:app --reload
+uvicorn blog.main:app --reload
+
+go to localhost:8000/docs to observe the end points
+
